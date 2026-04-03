@@ -24,7 +24,7 @@ The Pis boot from a read-only network file server, so whatever you do (including
 ## Getting Started
 
 1. Visit **[fpgas.online](https://fpgas.online)** and pick an available board
-2. Follow the **[Getting Started guide](https://github.com/CarlFK/pici/wiki/Getting-Started)** to build a bitstream locally using open source FPGA toolchains
+2. Follow the **[Getting Started guide](https://github.com/fpgas-online/fpgas-online.github.io/wiki/Getting-Started)** to build a bitstream locally using open source FPGA toolchains
 3. Upload your bitstream to the Pi and program the FPGA
 4. Watch your design run on real hardware via the camera feed
 
@@ -43,16 +43,23 @@ All designs use **fully open source FPGA toolchains** -- no vendor tools require
 
 | Repository | Description |
 |------------|-------------|
-| [fpgas.online-test-designs](https://github.com/fpgas-online/fpgas.online-test-designs) | LiteX-based test designs that verify FPGA boards are working correctly on boot |
-| [website](https://github.com/fpgas-online/website) | The [fpgas.online](https://fpgas.online) website |
-| [demo-repository](https://github.com/fpgas-online/demo-repository) | A demo repository showing best practices for GitHub |
-| [CarlFK/pici](https://github.com/CarlFK/pici) | Infrastructure code -- Ansible, tools, and Pi setup (original project repository) |
+| [fpgas.online-test-designs](https://github.com/fpgas-online/fpgas.online-test-designs) | LiteX-based test designs that verify FPGA boards are working |
+| [fpgas.online-infra](https://github.com/fpgas-online/fpgas.online-infra) | Ansible infrastructure for fpgas.online |
+| [fpgas.online-site](https://github.com/fpgas-online/fpgas.online-site) | Django web application for fpgas.online |
+| [fpgas.online-poe](https://github.com/fpgas-online/fpgas.online-poe) | SNMP PoE switch management |
+| [fpgas.online-cam](https://github.com/fpgas-online/fpgas.online-cam) | Camera capture and streaming for Raspberry Pi boards |
+| [fpgas.online-setup-pi](https://github.com/fpgas-online/fpgas.online-setup-pi) | Raspberry Pi environment setup for fpgas.online nodes |
+| [fpgas.online-netboot-pi](https://github.com/fpgas-online/fpgas.online-netboot-pi) | Netboot filesystem preparation tools |
+| [fpgas.online-tools](https://github.com/fpgas-online/fpgas.online-tools) | Utility scripts and tools |
+| [website](https://github.com/fpgas-online/website) | The fpgas.online website |
+| [apt](https://github.com/fpgas-online/apt) | APT package repository (GitHub Pages) |
+| [todo](https://github.com/fpgas-online/todo) | TODO items tracking |
 
 ## Documentation
 
-- **[Getting Started](https://github.com/CarlFK/pici/wiki/Getting-Started)** -- build your first bitstream and load it onto an FPGA
-- **[Behind the Scenes (Wiki)](https://github.com/CarlFK/pici/wiki)** -- how the infrastructure works
-- **[Wiring Diagram](https://github.com/CarlFK/pici/wiki/Wiring-Diagram)** -- hardware connections between the Pi and the FPGA
+- **[Getting Started](https://github.com/fpgas-online/fpgas-online.github.io/wiki/Getting-Started)** -- build your first bitstream and load it onto an FPGA
+- **[Behind the Scenes (Wiki)](https://github.com/fpgas-online/fpgas-online.github.io/wiki)** -- how the infrastructure works
+- **[Wiring Diagram](https://github.com/fpgas-online/fpgas-online.github.io/wiki/Wiring-Diagram)** -- hardware connections between the Pi and the FPGA
 
 ## Contributing
 
@@ -60,4 +67,3 @@ We welcome contributions! Whether it's improving the infrastructure, adding supp
 
 - **Email**: [me@mith.ro, carl@NextDayVideo.com](mailto:me@mith.ro,carl@NextDayVideo.com?subject=Helping%20with%20fpgas.online)
 - **Issues**: Open an issue in the relevant repository
-- **Wiki**: Help improve the [documentation](https://github.com/CarlFK/pici/wiki)
