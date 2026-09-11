@@ -6,7 +6,7 @@ Build your design locally with open source toolchains, upload a bitstream, and w
 
 <p align="center">
   <a href="https://fpgas.online">
-    <img src="https://fpgas.online/intro.png" alt="fpgas.online overview: You connect via the Internet to a Raspberry Pi which is wired to a real FPGA board" width="600">
+    <img src="https://fpgas.online/img/intro.png" alt="fpgas.online overview: You connect via the Internet to a Raspberry Pi which is wired to a real FPGA board" width="600">
   </a>
 </p>
 
