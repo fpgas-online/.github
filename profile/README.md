@@ -24,7 +24,7 @@ The Pis boot from a read-only network file server, so whatever you do (including
 ## Getting Started
 
 1. Visit **[fpgas.online](https://fpgas.online)** and pick an available board
-2. Follow the **[Getting Started guide](https://github.com/fpgas-online/fpgas-online.github.io/wiki/Getting-Started)** to build a bitstream locally using open source FPGA toolchains
+2. Follow the **[Getting Started guide](https://github.com/CarlFK/pici/wiki/Getting-Started)** to build a bitstream locally using open source FPGA toolchains
 3. Upload your bitstream to the Pi and program the FPGA
 4. Watch your design run on real hardware via the camera feed
 
@@ -33,7 +33,7 @@ The Pis boot from a read-only network file server, so whatever you do (including
 | Board | FPGA | Toolchain | Status |
 |-------|------|-----------|--------|
 | [Digilent Arty A7](https://digilent.com/reference/programmable-logic/arty-a7/start) | Xilinx Artix-7 | [openXC7](https://github.com/openXC7) | Active |
-| [Kosagi NeTV2](https://www.kosagi.com/w/index.php?title=NeTV2) | Xilinx Artix-7 | [openXC7](https://github.com/openXC7) | Active |
+| [Kosagi NeTV2](https://www.crowdsupply.com/alphamax/netv2) | Xilinx Artix-7 | [openXC7](https://github.com/openXC7) | Active |
 | [Fomu EVT](https://tomu.im/fomu.html) | Lattice iCE40UP5K | Yosys + nextpnr-ice40 | Active |
 | [TT FPGA Demo Board](https://tinytapeout.com/) | Lattice iCE40UP5K | Yosys + nextpnr-ice40 | Active |
 
@@ -57,9 +57,12 @@ All designs use **fully open source FPGA toolchains** -- no vendor tools require
 
 ## Documentation
 
-- **[Getting Started](https://github.com/fpgas-online/fpgas-online.github.io/wiki/Getting-Started)** -- build your first bitstream and load it onto an FPGA
-- **[Behind the Scenes (Wiki)](https://github.com/fpgas-online/fpgas-online.github.io/wiki)** -- how the infrastructure works
-- **[Wiring Diagram](https://github.com/fpgas-online/fpgas-online.github.io/wiki/Wiring-Diagram)** -- hardware connections between the Pi and the FPGA
+- **[Getting Started](https://github.com/CarlFK/pici/wiki/Getting-Started)** -- build your first bitstream and load it onto an FPGA
+- **[Behind the Scenes (Wiki)](https://github.com/CarlFK/pici/wiki)** -- how the infrastructure works
+- **[Wiring Diagram](https://github.com/CarlFK/pici/wiki/Wiring-Diagram)** -- hardware connections between the Pi and the FPGA
+- **[Documentation](https://docs.fpgas.online/)** -- the full reference for both sites: how the hardware is put together and how the infrastructure behind it runs
+- **[Boards](https://docs.fpgas.online/en/latest/boards/index.html)** -- every FPGA board type, how it is wired to its Raspberry Pi, and how to program it
+- **[Setup](https://docs.fpgas.online/en/latest/setup/index.html)** -- netboot and the NFS root, the network, the Pi hosts, the gateway and the web application
 
 ## Contributing
 
